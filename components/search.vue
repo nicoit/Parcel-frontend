@@ -2,11 +2,7 @@
 
 <script>
 import Alert from "~/components/alert.vue";
-// const runtimeConfig = useRuntimeConfig();
 export default {
-  setup() {
-    const runtimeConfig = useRuntimeConfig()
-  },
   name: 'search',
   components: {Alert},
   data() {

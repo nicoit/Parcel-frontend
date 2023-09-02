@@ -2,9 +2,6 @@
 <script>
 import Alert from "~/components/alert.vue";
 export default {
-  setup() {
-    const runtimeConfig = useRuntimeConfig()
-  },
   name: 'create',
   components: {Alert},
   data() {
